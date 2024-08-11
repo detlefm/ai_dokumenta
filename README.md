@@ -28,6 +28,6 @@ Emails sind derzeit außen vor. Den Kauf beim Supermarkt um die Ecke merke ich m
 4. Ich bin auch nicht glücklich über Obsidian (obwohl die schon einen guten Job machen und wenigstens eine gute Stelle zur Sammlung von Snippets sind)
 5. Wenn ich rausgefunden habe was machbar ist, werde ich nach und nach versuchen das umzusetzen.
 
-Also - lets go.
+Also - lets go.  
 Stand: 20240811
 
