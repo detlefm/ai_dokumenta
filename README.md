@@ -12,7 +12,7 @@ Von mir und meiner gesamten Familie.
 
 Und mein liebster Workflow wäre:
 Ich bekomme was, wenn in Papierform scanne ich es (Microsoft Lens ist mein Freund) und wenn in Papierform lege ich es einfach chronologisch in einen Ordner ab. 
-Wenn eine Aktion (wie bezahlen) damit verbunden ist wird es entweder sofort erledigt oder entweder in Papierform auf die Ablage zu bearbeiten gelegt bzw. bei mir
+Wenn eine Aktion (wie bezahlen) damit verbunden ist wird es entweder sofort erledigt oder in Papierform auf die Ablage zu bearbeiten gelegt bzw. bei mir
 in elektronischer Form in einem Ordner "Zu bearbeiten" gepackt und dann halt dort gehalten bis erledigt.
 Was also mit den elektronischen Dokumenten. 
 In ihrer Ursprungsform halten? Also Mails als Mails im Mailordner lassen? Pdfs usw. in einen Cloudspeicher irgendwie geordnet übertragen? 
