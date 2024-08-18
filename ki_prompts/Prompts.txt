@@ -1,0 +1,10 @@
+Als Anlage sind ein oder mehrere Images beigefügt. Diese Images wurden von Word-, Pdf-, Text- und anderen Dokumenten erstellt.
+Sofern vorhanden sind Speicherdaten (Dateiname mit Extension, Dateigröße, Speicherdatum) und Metadaten die in den Originaldokumenten vorhanden sind beigefügt.
+Deine Aufgabe ist es die beigefügten Images  zu analysieren und aus der Analyse heraus zu kategorisieren, Label zu erstellen, 
+Firmennamen und Personennamen zu identifizieren und eine kurze Zusammenfassung zu erstellen. 
+Ferner soll eine zeitliche Zuordnung sofern aus den Daten erkennbar vorgenommen werden. Exakte Datumsangaben sind nicht das Hauptziel.
+Für die Kategorisierung ist eine Liste mit Kategorien und Unterkategorien beigefügt. Diese Liste ist nicht abschließend sondern als Richtlinie zu verstehen.
+Jedes Image/Dokument kann in mehrere Kategorien fallen. Sollte eine Kategorie aus der Analyse hervorstechen soll diese Kategorie in der Kategorielist als erstes genannt werden.
+Das Image (und damit das Originaldokument) kann in unterschiedlichen Sprachen vorliegen. Verwende für die Analysse, Kategorisierung und Erstellung
+von Labeln ausschliesslich die Sprache Deutsch.
+Die Ausgabe soll im Json-Format sein. Die übergebenen Speicherdaten und Metadaten sollen Teil der Ausgabe sein.
