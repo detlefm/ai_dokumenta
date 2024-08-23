@@ -6,7 +6,7 @@ import streamlit as st
 import io
 from PIL import Image
 from pathlib import Path
-import pdf2image
+from pdf2image import PdfConverter
 import xlib.x_image as x_image
 
 
@@ -39,9 +39,12 @@ def streamlit_interface():
             if uploaded_file:
                 suffix = Path(uploaded_file.name).suffix
                 if suffix == '.pdf':
-                    image = pdf2image.convert(uploaded_file)
+                    converter = PdfConverter(uploaded_file)
+                    images = converter.to_images()
+                    image = converter.to_combined_image(pages=images[:5])
+                    #image = pdf2image.convert(uploaded_file)
                     source = io.BytesIO()
-                    image.save(source, format='PNG')                 
+                    image.save(source, format='JPG')                 
                 else:
                     image = Image.open(uploaded_file)
                     source = uploaded_file                    

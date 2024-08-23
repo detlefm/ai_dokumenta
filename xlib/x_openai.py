@@ -63,7 +63,7 @@ class Role:
 def ask_openai(prompt:str,
                source:str|BytesIO|list,
                system:str='',
-               max:int=2000):
+               max:int=2000) -> ChatCompletion:
     messages = []
     user = Role('user',prompt=prompt)
     if source:

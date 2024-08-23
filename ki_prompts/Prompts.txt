@@ -1,3 +1,5 @@
+Version 1:
+
 Als Anlage sind ein oder mehrere Images beigefügt. Diese Images wurden von Word-, Pdf-, Text- und anderen Dokumenten erstellt.
 Sofern vorhanden sind Speicherdaten (Dateiname mit Extension, Dateigröße, Speicherdatum) und Metadaten die in den Originaldokumenten vorhanden sind beigefügt.
 Deine Aufgabe ist es die beigefügten Images  zu analysieren und aus der Analyse heraus zu kategorisieren, Label zu erstellen, 
@@ -8,3 +10,16 @@ Jedes Image/Dokument kann in mehrere Kategorien fallen. Sollte eine Kategorie au
 Das Image (und damit das Originaldokument) kann in unterschiedlichen Sprachen vorliegen. Verwende für die Analysse, Kategorisierung und Erstellung
 von Labeln ausschliesslich die Sprache Deutsch.
 Die Ausgabe soll im Json-Format sein. Die übergebenen Speicherdaten und Metadaten sollen Teil der Ausgabe sein.
+
+Version 2 (von ChatGPT überarbeitet):
+
+Als Anlage sind ein oder mehrere Bilder (Images) beigefügt. Diese Images wurden von verschiedenen Dokumenten (z.B. Word-, PDF-, Text- und anderen Formaten) erstellt. Zusätzlich sind, sofern vorhanden, Speicherdaten (Dateiname mit Extension, Dateigröße, Speicherdatum) und Metadaten aus den Originaldokumenten beigefügt.
+Deine Aufgabe ist es, die beigefügten Images zu analysieren und folgende Schritte durchzuführen:
+1. Kategorisierung: Ordne jedes Image einer oder mehreren Kategorien zu. Eine Liste mit Kategorien und Unterkategorien ist beigefügt. Diese Liste dient als Richtlinie, kann aber bei Bedarf ergänzt werden. Wenn eine Kategorie besonders hervorsticht, nenne diese als erste in der Kategorieliste.
+2. Label-Erstellung: Erstelle aussagekräftige Labels basierend auf dem Inhalt des Images.
+3. Identifikation von Namen: Identifiziere und extrahiere Firmennamen und Personennamen, die im Dokument vorkommen.
+4. Zusammenfassung: Fasse den Inhalt des Images in ein bis zwei Sätzen zusammen.
+5. Zeitliche Zuordnung: Versuche, eine zeitliche Zuordnung vorzunehmen, sofern dies aus den Daten erkennbar ist. Exakte Datumsangaben sind nicht zwingend erforderlich.
+6. Örtliche Zuordnung: Versuche eine örtliche Zuordnung vorzunehmen, sofern dies aus den Daten erkennbar ist.
+7. Spracherkennung und Verarbeitung: Die Dokumente können in verschiedenen Sprachen vorliegen. Für die Analyse, Kategorisierung und Erstellung von Labels ist ausschließlich die deutsche Sprache zu verwenden.
+Die Ausgabe soll im JSON-Format erfolgen und alle relevanten Informationen enthalten, einschließlich der übergebenen Speicherdaten und Metadaten.

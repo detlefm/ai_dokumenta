@@ -405,3 +405,55 @@ Hier sind einige JSON-Daten. Bitte sag mir, wie viel ich im letzten Jahr bei mei
 **Startpunkt:**  
 Du könntest zunächst mit der cloudbasierten Lösung experimentieren, um ein Gefühl für die Art der Abfragen zu bekommen und dann bei Bedarf auf eine lokale Lösung umsteigen. Wenn Du Fragen zur Implementierung einer der beiden Lösungen hast, stehe ich zur Verfügung, um Dich weiter zu unterstützen!
 
+## Ich
+
+Ich möchte durch eine KI Images die ich von Word-,PDF- und anderen Dokument erstellt habe kategorisieren und labeln lassen. Nebst einer kurzen Zusammenfassung. Ich brauche von Dir jetzt Hilfe bei der Erstellung eines entsprechenden Prompts und bitte um Durchsicht und Vorschläge bzw. Korrektur. Mein Entwurf dafür ist :
+"Als Anlage sind ein oder mehrere Images beigefügt. Diese Images wurden von Word-, Pdf-, Text- und anderen Dokumenten erstellt.
+Sofern vorhanden sind Speicherdaten (Dateiname mit Extension, Dateigröße, Speicherdatum) und Metadaten die in den Originaldokumenten vorhanden sind beigefügt.
+Deine Aufgabe ist es die beigefügten Images  zu analysieren und aus der Analyse heraus zu kategorisieren, Label zu erstellen, 
+Firmennamen und Personennamen zu identifizieren und eine kurze Zusammenfassung zu erstellen. 
+Ferner soll eine zeitliche Zuordnung sofern aus den Daten erkennbar vorgenommen werden. Exakte Datumsangaben sind nicht das Hauptziel.
+Für die Kategorisierung ist eine Liste mit Kategorien und Unterkategorien beigefügt. Diese Liste ist nicht abschließend sondern als Richtlinie zu verstehen.
+Jedes Image/Dokument kann in mehrere Kategorien fallen. Sollte eine Kategorie aus der Analyse hervorstechen soll diese Kategorie in der Kategorielist als erstes genannt werden.
+Das Image (und damit das Originaldokument) kann in unterschiedlichen Sprachen vorliegen. Verwende für die Analysse, Kategorisierung und Erstellung
+von Labeln ausschliesslich die Sprache Deutsch.
+Die Ausgabe soll im Json-Format sein. Die übergebenen Speicherdaten und Metadaten sollen Teil der Ausgabe sein."
+
+## Bot:
+
+Dein Entwurf für den Prompt ist bereits sehr gut strukturiert und klar formuliert. Hier sind einige Anpassungen und Vorschläge, um den Prompt noch präziser zu machen und mögliche Missverständnisse zu vermeiden:
+
+### Überarbeiteter Prompt:
+
+"Als Anlage sind ein oder mehrere Bilder (Images) beigefügt. Diese Images wurden von verschiedenen Dokumenten (z.B. Word-, PDF-, Text- und anderen Formaten) erstellt. Zusätzlich sind, sofern vorhanden, Speicherdaten (Dateiname mit Extension, Dateigröße, Speicherdatum) und Metadaten aus den Originaldokumenten beigefügt.
+
+Deine Aufgabe ist es, die beigefügten Images zu analysieren und folgende Schritte durchzuführen:
+
+1. **Kategorisierung**: Ordne jedes Image einer oder mehreren Kategorien zu. Eine Liste mit Kategorien und Unterkategorien ist beigefügt. Diese Liste dient als Richtlinie, kann aber bei Bedarf ergänzt werden. Wenn eine Kategorie besonders hervorsticht, nenne diese als erste in der Kategorieliste.
+
+2. **Label-Erstellung**: Erstelle aussagekräftige Labels basierend auf dem Inhalt des Images.
+
+3. **Identifikation von Namen**: Identifiziere und extrahiere Firmennamen und Personennamen, die im Dokument vorkommen.
+
+4. **Zusammenfassung**: Fasse den Inhalt des Images in ein bis zwei Sätzen zusammen.
+
+5. **Zeitliche Zuordnung**: Versuche, eine zeitliche Zuordnung vorzunehmen, sofern dies aus den Daten erkennbar ist. Exakte Datumsangaben sind nicht zwingend erforderlich.
+
+6. **Spracherkennung und Verarbeitung**: Die Dokumente können in verschiedenen Sprachen vorliegen. Für die Analyse, Kategorisierung und Erstellung von Labels ist ausschließlich die deutsche Sprache zu verwenden.
+
+Die Ausgabe soll im JSON-Format erfolgen und alle relevanten Informationen enthalten, einschließlich der übergebenen Speicherdaten und Metadaten."
+
+### Erläuterungen zu den Anpassungen:
+
+- **Klarheit und Präzision**: Der Prompt wurde sprachlich etwas vereinfacht und gegliedert, um ihn noch klarer und präziser zu machen. So ist er leichter zu verstehen, auch für eine KI.
+  
+- **Punktweise Auflistung der Aufgaben**: Die einzelnen Aufgaben wurden in einer nummerierten Liste dargestellt, um die Strukturierung und Priorisierung zu verdeutlichen.
+
+- **Labels und Kategorien**: Der Begriff "Label-Erstellung" wurde beibehalten, aber noch klarer abgegrenzt von der Kategorisierung. 
+
+- **Spracherkennung**: Es wurde klargestellt, dass die Analyse ausschließlich in deutscher Sprache erfolgen soll, unabhängig von der Originalsprache des Dokuments.
+
+### Fazit:
+Mit diesen Anpassungen ist der Prompt klar und detailliert genug, um eine präzise und zielgerichtete Verarbeitung der Dokumente durchzuführen. Du kannst diesen Prompt direkt in Deiner Anwendung verwenden oder noch weiter anpassen, wenn spezielle Anforderungen hinzukommen.
+
+

@@ -5,23 +5,23 @@ import json
 ANSW_CONTENT = "content"
 ANSW_FINISH = "finish_reason"
 
-@dataclass
-class ChatResult:
-    completion:ChatCompletion
+# @dataclass
+# class ChatResult:
+#     completion:ChatCompletion
 
-    def total_token(self) -> int:
-        return self.completion.usage.total_tokens
+#     def total_token(self) -> int:
+#         return self.completion.usage.total_tokens
 
-    def count_choices(self) -> int:
-        return len(self.completion.choices)
+#     def count_choices(self) -> int:
+#         return len(self.completion.choices)
 
-    def choice(self,index:int=0) -> dict:
-        if index >= len(self.completion.choices):
-            return None
-        return {
-            ANSW_CONTENT: self.completion.choices[index].message.content,
-            ANSW_FINISH: self.completion.choices[index].finish_reason
-        }
+#     def choice(self,index:int=0) -> dict:
+#         if index >= len(self.completion.choices):
+#             return None
+#         return {
+#             ANSW_CONTENT: self.completion.choices[index].message.content,
+#             ANSW_FINISH: self.completion.choices[index].finish_reason
+#         }
 
 
 
