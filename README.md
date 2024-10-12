@@ -41,3 +41,7 @@ Auch der Lösungsansatz von [Kevin :ChatRTX](https://youtu.be/wZ4sPUcdlO4?si=2kB
 Und wenn ich mir noch dieses Video hier ansehe  [Pros und Cons lokale LLM](https://youtu.be/EMuBqcO048E?si=8rFKPKXFMYyC0pfG) muss ich dem Youtuber Recht geben. Die Kosten und der Aufwand darf nicht unterschätzt werden.
 Und dann kommt dieses youtube video daher: [NotebookLM in Action](https://youtu.be/YmVZkl6KVUs?si=-Zjqj3NkHGmmSVrr). Und es zeigt eines: Es ist eine Aufgabenstellung die Google auf dem Schirm hat. Und wenn das Google macht dann ist Microsoft mit Sharepoint nicht weit entfernt. Und wenn ich was Selbstgestricktes mit einer 80% Lösung von einem der Beiden (für das ich dann ein ein paar Euro Abo bezahle) vergleiche dann wähle ich erstmal das Abo und schaue nach was anderem um für das ich meine Freizeit opfere.
 Also lege ich dieses Projekt erstmal still. Aber Feedback von euch ist willkommen.
+
+Nachtrag:
+Ich muss mir anschauen [n8n Rag](https://youtu.be/T1ZKEmDN8AA?si=5CYy476BaGJlIHKE)
+
